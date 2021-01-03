@@ -25,6 +25,9 @@
                                 <state key="normal" title="画面遷移ボタン">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="moveSecondView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ji-Tb-eTn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

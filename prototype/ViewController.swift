@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func moveSecondView(_ sender: Any) {
+        // ボタンが押された時に画面遷移を行う設定をする
+        performSegue(withIdentifier: "firstTransitions", sender: nil)
     }
     
     

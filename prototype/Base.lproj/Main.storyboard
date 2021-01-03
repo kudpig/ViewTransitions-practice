@@ -36,6 +36,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="BVa-ck-vLT"/>
+                    <connections>
+                        <segue destination="vLo-w7-B50" kind="show" identifier="firstTransitions" id="c6M-Jv-8Of"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,6 +66,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X9p-3E-f6i"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QWA-Mv-mws"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sUT-yq-LDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
